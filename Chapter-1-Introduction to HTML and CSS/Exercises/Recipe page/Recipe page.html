@@ -16,11 +16,8 @@ checklist: ✅cursor, fix columns
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Iansui&family=Nova+Square&display=swap" rel="stylesheet">
 
-  <!-- custom bullet -->
-  <script src="https://unpkg.com/feather-icons"></script>
-
 <style>
-body {
+body { /* everything that's in the body */
   font-family: "Iansui", cursive;
   font-weight: 400;
   font-style: normal;
@@ -30,9 +27,9 @@ body {
   color: white;
 }
 
-h1, h2 {
+h1, h2 {  /* change the font of headings */
   font-family: "Nova Square", sans-serif;
-  font-style: b;
+  font-style: bold;
 }
 
 h1 {
@@ -45,7 +42,7 @@ h1 {
   filter: drop-shadow(2px 3px 0px #75291c);
 }
 
-.deets {
+.deets {  /* the details under the dish name */
   text-align: center;
 }
 
@@ -54,34 +51,34 @@ h2 {
   color:#ee7c39;
 }
 
-p {
+p {  /* any paragraph */
   line-height: 1.5;
   text-align: justify;
 }
 
-b {
-    color:#ee7c39;
+b {  /* any text in bold */
+  color:#ee7c39;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.column {
+.column { /* both columns */
   float: left;
   padding: 10px;
 }
 
-.left {
+.left { /* left column */
   width: 70%;
   padding-left: 5px;
 }
 
-.right {
+.right { /* right column */
   width: 30%;
 }
 
-img {
+img { /* image of the dish */
   max-width:28vw;
   outline: 4px dashed;
   outline-offset: -20px;
@@ -96,7 +93,7 @@ img {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {  /* make columns responsive and resize according to screen size */
   .column {
     width: 100%;
   }
@@ -151,10 +148,6 @@ img {
     </div>
   </div>
 </body>
-
-<script>
-    feather.replace();
-</script>
 </html>
 
 <!--
