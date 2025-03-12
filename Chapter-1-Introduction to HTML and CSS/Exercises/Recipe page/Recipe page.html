@@ -27,6 +27,10 @@ body { /* everything that's in the body */
   color: white;
 }
 
+::selection { /* change the text highlight color */
+  background: #75291c;
+}
+
 h1, h2 {  /* change the font of headings */
   font-family: "Nova Square", sans-serif;
   font-style: bold;
@@ -83,7 +87,8 @@ img { /* image of the dish */
   outline: 4px dashed;
   outline-offset: -20px;
   border: 4px solid #8d422d;
-  border-radius: 15px;
+  border-radius: 15px; /* round the corners of the image */
+  filter: drop-shadow(2px 4px 5px #451c16); /* adds drop shadow to image */
 }
 
 /* Clear floats after the columns */
