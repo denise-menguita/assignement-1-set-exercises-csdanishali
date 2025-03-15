@@ -21,9 +21,9 @@ body { /* everything that's in the body */
   font-family: "Iansui", cursive;
   font-weight: 400;
   font-style: normal;
-  padding: 0px 15px;
+  padding: 0px 15px;  /* add space to sides */
   background: #83654a;
-  cursor: url('cursor.cur'), auto;
+  cursor: url('cursor.cur'), auto; /* custom cursor for cuteness */
   color: white;
 }
 
@@ -37,16 +37,16 @@ h1, h2 {  /* change the font of headings */
 }
 
 h1 {
-  font-size: 3vw;
-  font-weight: 800;
+  font-size: 3vw; /* font size according to viewport (browser window size) width */
+  font-weight: 800; /* make the font thick */
   text-align: center;
-  background: -webkit-linear-gradient(#eab764, #d9703b);
+  background: -webkit-linear-gradient(#eab764, #d9703b);  /* makes the background of the text/pseudo-text color a gradient */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /* makes the actual text color transparent, so the gradient shows */
   filter: drop-shadow(2px 3px 0px #75291c);
 }
 
-.deets {  /* the details under the dish name */
+.deets {  /* the details under the title */
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ img { /* image of the dish */
   <h1>Garlic Butter Shrimp Recipe</h1>  <!-- title -->
       <div class="deets"><b>Prep:</b> 10 minutes | <b>Cook:</b> 15 minutes | <b>Total:</b> 25 minutes | <b>Servings:</b> 2</div>
 
-  <div class="row">
+  <div class="row"> <!-- make row w 2 columns to div the text and img -->
     <div class="column left">
       <p>  <!-- recipe description -->
           I love seafood, from crab to mussel to shrimp, specifically butter shrimp.
