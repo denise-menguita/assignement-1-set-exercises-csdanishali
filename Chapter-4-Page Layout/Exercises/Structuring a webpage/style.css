@@ -1,17 +1,18 @@
 body { 
-    margin-top: 0px;
+    margin-top: 0px;    /* prevent blank space around the edges */
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     font-family: Arial;
-    font-weight: 400;
+    font-weight: 400;   /* sets the thickness of the font */
 }
 
 header, a {
     background-color: #17072b;
+    padding: 1.5vw; /* inside spacing/space between the border of the header and the content */
     text-align: center;
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: none;  /* no underline for links */
 }
 
 h1, h2 {
@@ -28,13 +29,23 @@ a, h2 {
     font-size: 1.5vw;
 }
 
+main {
+    margin: 1.5vw;  /* outside spacing */
+}
+
+section.img {
+    width: 100%;
+}
+
 aside {
+    padding: 1vw 2vw; /* inside spacing/space between the border of the sidebar and the content */
     background-color: #172d67;
     color: #FFFFFF;
 }
 
 footer {
     background-color: #8c15e9;
+    padding: 5px;
     text-align: center;
     color: #FFFFFF;
 }
